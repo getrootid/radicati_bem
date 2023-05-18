@@ -1,7 +1,13 @@
 {
   "name": "getrootid/radicati_bem",
-  "description": "This module loads a bem function for our twig templates",
-  "type": "project",
-  "minimum-stability": "dev",
-  "version": "1.0.0"
+  "description": "Drupal module which loads a bem function for our twig templates",
+  "type": "drupal-module",
+  "authors": [
+    {
+      "name": "Meg Claypool",
+      "email": "meg@rootid.com"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "require": {}
 }
