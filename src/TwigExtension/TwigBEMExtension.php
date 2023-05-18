@@ -2,12 +2,12 @@
 
 namespace Drupal\radicati_bem\TwigExtension;
 
-use Drupal\Core\Template\Attribute;
+// use Drupal\Core\Template\Attribute;
 
 /**
  * A test Twig extension that adds a custom function and a custom filter.
  */
-class TwigExtensions extends \Twig\Extension\AbstractExtension
+class TwigBEMExtension extends \Twig\Extension\AbstractExtension
 {
 
   /**
@@ -38,26 +38,9 @@ class TwigExtensions extends \Twig\Extension\AbstractExtension
    */
   public function getName()
   {
-    return 'radicati_bem.twigextensions';
+    return 'radicati_bem.twig_extension';
   }
 
-  /**
-   * Outputs either an uppercase or lowercase test phrase.
-   *
-   * The function generates either an uppercase or lowercase version of the
-   * phrase "The quick brown fox jumps over the lazy dog 123.", depending on
-   * whether or not the $upperCase parameter evaluates to TRUE. If $upperCase
-   * evaluates to TRUE, the result will be uppercase, and if it evaluates to
-   * FALSE, the result will be lowercase.
-   *
-   * @param bool $upperCase
-   *   (optional) Whether the result is uppercase (true) or lowercase (false).
-   *
-   * @return string
-   *   The generated string.
-   *
-   * @see \Drupal\system\Tests\Theme\TwigExtensionTest::testTwigExtensionFunction()
-   */
   public static function bem($context, $base_class, $modifiers = array(), $blockname = '', $extra = array())
   {
     $classes = [];

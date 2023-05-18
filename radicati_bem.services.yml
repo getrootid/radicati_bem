@@ -1,5 +1,5 @@
 services:
-  radicati_bem.twig.TwigExtensions:
-    class: Drupal\radicati_bem\TwigExtension\TwigExtensions
+  radicati_bem.twig_extension:
+    class: Drupal\radicati_bem\TwigExtension\TwigBEMExtension
     tags:
       - {name: twig.extension}
