@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Contains rootid_bem.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function radicati_bem_help($route_name, RouteMatchInterface $route_match)
+{
+  switch ($route_name) {
+      // Main module help for the rootid_component_library_helper module.
+    case 'help.page.radicati_component_helper':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module that loads a BEM function, which is used in themes made by Rootid.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

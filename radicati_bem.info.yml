@@ -1,0 +1,5 @@
+name: "Radicati BEM Module"
+type: module
+description: "This module loads our BEM function for templating"
+core_version_requirement: ^8 || ^9
+package: "radicati"
