@@ -1,7 +1,7 @@
 {
-    "name": "rootid/radicati_bem",
-    "description": "This module loads a bem function for our twig templates",
-    "type": "project",
-    "minimum-stability": "dev",
-    "version": "1.0.0"
+  "name": "getrootid/radicati_bem",
+  "description": "This module loads a bem function for our twig templates",
+  "type": "project",
+  "minimum-stability": "dev",
+  "version": "1.0.0"
 }
